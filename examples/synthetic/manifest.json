@@ -1,0 +1,9 @@
+{
+  "dataset_type": "synthetic_illustrative",
+  "warning": "These images are generated geometry, not real footage or model predictions.",
+  "files": [
+    "synthetic_frame_001.png",
+    "synthetic_frame_002.png",
+    "synthetic_frame_003.png"
+  ]
+}

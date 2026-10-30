@@ -1,0 +1,33 @@
+{
+  "dataset_type": "synthetic_illustrative",
+  "warning": "Not collected from a real store and not an accuracy benchmark.",
+  "events": [
+    {
+      "event_id": "demo-001",
+      "video_time": "00:00:12",
+      "tracked_person_id": 7,
+      "classification": "customer",
+      "signals": ["person_in_roi", "wrist_in_pickup_roi"],
+      "event": "coffee_pickup",
+      "evidence": "synthetic_frame_001"
+    },
+    {
+      "event_id": "demo-002",
+      "video_time": "00:00:31",
+      "tracked_person_id": 11,
+      "classification": "staff_candidate",
+      "signals": ["uniform_color_match", "wrist_in_pickup_roi"],
+      "event": "ignored_staff_interaction",
+      "evidence": "synthetic_frame_002"
+    },
+    {
+      "event_id": "demo-003",
+      "video_time": "00:01:04",
+      "tracked_person_id": 14,
+      "classification": "customer",
+      "signals": ["person_in_roi", "receipt_reader_activity", "wrist_in_pickup_roi"],
+      "event": "coffee_pickup",
+      "evidence": "synthetic_frame_003"
+    }
+  ]
+}

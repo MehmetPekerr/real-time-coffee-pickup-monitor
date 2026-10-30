@@ -1,0 +1,20 @@
+.env
+__pycache__/
+*.py[cod]
+
+# Local models and private camera configuration
+models/
+config/settings.json
+
+# Runtime output and captured media
+data/
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+
+# Local tooling
+.venv/
+.idea/
+.vscode/
