@@ -1,9 +1,3 @@
-"""Generate clearly labelled, non-photorealistic demo evidence.
-
-The generated images are illustrative documentation only. They are not model
-predictions, benchmark data, or footage from a real store.
-"""
-
 import json
 import os
 from pathlib import Path
